@@ -14,6 +14,11 @@
     <body>
       <p>Hello World!</p> 
       <p> My name is Austin! </p>
-      <button id="button">Click me!</button>
+      <button id="button" onclick="onClick()">Click me!</button>
    </body>
+    <script>
+        function onClick() {
+            document.body.innerHTML = "";
+        }
+    </script>
 </html>
